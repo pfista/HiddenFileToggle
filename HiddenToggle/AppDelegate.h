@@ -11,5 +11,10 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSMenuItem *quit;
+
+@property (strong, nonatomic) NSStatusItem *statusBar;
+
+- (void)launch;
 
 @end

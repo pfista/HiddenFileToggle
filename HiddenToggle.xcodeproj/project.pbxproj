@@ -13,6 +13,8 @@
 		B7620FD1180D00840021FDF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7620FCF180D00840021FDF7 /* Credits.rtf */; };
 		B7620FD4180D00840021FDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7620FD3180D00840021FDF7 /* AppDelegate.m */; };
 		B7620FD7180D00840021FDF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7620FD5180D00840021FDF7 /* MainMenu.xib */; };
+		B7620FE0180D15870021FDF7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = B7620FDE180D15870021FDF7 /* star.png */; };
+		B7620FE1180D15870021FDF7 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = B7620FDF180D15870021FDF7 /* star2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B7620FD2180D00840021FDF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7620FD3180D00840021FDF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B7620FD6180D00840021FDF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B7620FDE180D15870021FDF7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		B7620FDF180D15870021FDF7 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		B7620FC6180D00840021FDF7 /* HiddenToggle */ = {
 			isa = PBXGroup;
 			children = (
+				B7620FDD180D13D50021FDF7 /* Graphics */,
 				B7620FD2180D00840021FDF7 /* AppDelegate.h */,
 				B7620FD3180D00840021FDF7 /* AppDelegate.m */,
 				B7620FD5180D00840021FDF7 /* MainMenu.xib */,
@@ -100,6 +105,15 @@
 				B7620FCF180D00840021FDF7 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7620FDD180D13D50021FDF7 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B7620FDE180D15870021FDF7 /* star.png */,
+				B7620FDF180D15870021FDF7 /* star2.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 				B7620FCB180D00840021FDF7 /* InfoPlist.strings in Resources */,
 				B7620FD1180D00840021FDF7 /* Credits.rtf in Resources */,
 				B7620FD7180D00840021FDF7 /* MainMenu.xib in Resources */,
+				B7620FE0180D15870021FDF7 /* star.png in Resources */,
+				B7620FE1180D15870021FDF7 /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +319,7 @@
 				B7620FDC180D00840021FDF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
