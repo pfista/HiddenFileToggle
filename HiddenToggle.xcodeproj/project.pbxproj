@@ -13,8 +13,8 @@
 		B7620FD1180D00840021FDF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7620FCF180D00840021FDF7 /* Credits.rtf */; };
 		B7620FD4180D00840021FDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7620FD3180D00840021FDF7 /* AppDelegate.m */; };
 		B7620FD7180D00840021FDF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7620FD5180D00840021FDF7 /* MainMenu.xib */; };
-		B7620FE0180D15870021FDF7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = B7620FDE180D15870021FDF7 /* star.png */; };
-		B7620FE1180D15870021FDF7 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = B7620FDF180D15870021FDF7 /* star2.png */; };
+		B7D109F2180E392F00AFA570 /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D109F0180E392F00AFA570 /* hidden.png */; };
+		B7D109F3180E392F00AFA570 /* shown.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D109F1180E392F00AFA570 /* shown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		B7620FD2180D00840021FDF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7620FD3180D00840021FDF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B7620FD6180D00840021FDF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B7620FDE180D15870021FDF7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
-		B7620FDF180D15870021FDF7 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		B7D109F0180E392F00AFA570 /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
+		B7D109F1180E392F00AFA570 /* shown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		B7620FDD180D13D50021FDF7 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				B7620FDE180D15870021FDF7 /* star.png */,
-				B7620FDF180D15870021FDF7 /* star2.png */,
+				B7D109F0180E392F00AFA570 /* hidden.png */,
+				B7D109F1180E392F00AFA570 /* shown.png */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -170,8 +170,8 @@
 				B7620FCB180D00840021FDF7 /* InfoPlist.strings in Resources */,
 				B7620FD1180D00840021FDF7 /* Credits.rtf in Resources */,
 				B7620FD7180D00840021FDF7 /* MainMenu.xib in Resources */,
-				B7620FE0180D15870021FDF7 /* star.png in Resources */,
-				B7620FE1180D15870021FDF7 /* star2.png in Resources */,
+				B7D109F2180E392F00AFA570 /* hidden.png in Resources */,
+				B7D109F3180E392F00AFA570 /* shown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

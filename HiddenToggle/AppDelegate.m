@@ -32,12 +32,12 @@ bool hidden;
     if (hidden) {
         [task setArguments:@[ @"-c", @"/usr/bin/defaults write com.apple.finder AppleShowAllFiles NO" ]];
         hidden = NO;
-        self.statusBar.image = [NSImage imageNamed:@"star2"];
+        self.statusBar.image = [NSImage imageNamed:@"hidden"];
     }
     else {
         [task setArguments:@[ @"-c", @"/usr/bin/defaults write com.apple.finder AppleShowAllFiles YES" ]];
         hidden = YES;
-        self.statusBar.image = [NSImage imageNamed:@"star"];
+        self.statusBar.image = [NSImage imageNamed:@"shown"];
     }
     [task launch];
     [task waitUntilExit];
@@ -68,11 +68,11 @@ bool hidden;
     
     if ([stringRead isEqualToString:@"NO"]){
         hidden = YES;
-        self.statusBar.image = [NSImage imageNamed:@"star"];
+        self.statusBar.image = [NSImage imageNamed:@"shown"];
     }
     else {
         hidden = NO;
-        self.statusBar.image = [NSImage imageNamed:@"star2"];
+        self.statusBar.image = [NSImage imageNamed:@"hidden"];
     }
     
 }
